@@ -6,7 +6,15 @@ fooltarget:
 svmtarget:
 	java -jar /home/proch/antlr/antlr-4.1-complete.jar src/SVM.g
 
-git:
+
+
+git: track commit push
+
+track:
 	git add **/*.java **/*.g Makefile README.md
+
+commit:
 	git commit -m "commit"
+
+push:
 	git push origin master
